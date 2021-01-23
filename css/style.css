@@ -1,4 +1,4 @@
-/*.d-bloc .a-btn:hover,
+.d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
@@ -12,57 +12,57 @@
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+  color: white;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+  background: white;
 }
 
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
+  color: white;
+  border-color: white;
 }
 
 .d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .d-bloc .panel icon {
-    border-color: rgba(0, 0, 0, .7);
+  border-color: rgba(0, 0, 0, 0.7);
 }
 
 .d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
+  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .d-bloc .panel .a-btn:hover {
-    color: rgba(0, 0, 0, 1);
+  color: black;
 }
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
+  color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.3);
 }
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .l-bloc .icon-round,
@@ -70,12 +70,12 @@
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
 .l-bloc .icon-semi-rounded-b {
-    border-color: rgba(0, 0, 0, .7);
+  border-color: rgba(0, 0, 0, 0.7);
 }
 
 .d-bloc .panel .divider-h span,
 .l-bloc .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
+  border-color: rgba(0, 0, 0, 0.1);
 }
 
 .d-bloc .panel .a-btn,
@@ -93,7 +93,7 @@
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -111,24 +111,25 @@
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
+  color: black;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover,
 .l-bloc .btn-wire,
 .l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
+  color: rgba(0, 0, 0, 0.7);
+  border-color: rgba(0, 0, 0, 0.3);
 }
 
-.l-bloc{
-    color: rgba(0, 0, 0, 1);
-}*/
+.l-bloc {
+  color: black;
+}
+
 * {
   margin: 0;
   padding: 0;
