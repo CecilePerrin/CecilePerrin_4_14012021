@@ -1,0 +1,19 @@
+{
+  "name": "starting-website",
+  "version": "1.0.0",
+  "description": "Projet 4 de la formation Openclassrooms sur le parcours Developpeur Web, l'objectif de ce projet est d'optimiser un site existant en utilisant les bonnes pratiques SEO et l'accessibilité.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./Sass/Main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CecilePerrin/CecilePerrin_4_14012021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CecilePerrin/CecilePerrin_4_14012021/issues"
+  },
+  "homepage": "https://github.com/CecilePerrin/CecilePerrin_4_14012021#readme"
+}

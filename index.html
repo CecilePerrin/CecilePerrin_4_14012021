@@ -23,8 +23,12 @@
       <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg">
       <link rel="stylesheet" type="text/css" href="./css/bootstrap-min.css" >
       <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="/css/style.css">
       <link rel="stylesheet" type="text/css" href="./css/et-line-min.css">
-
+      <link rel="preload" type="text/css" as="style" href="./css/bootstrap-min.css" >
+      <link rel="preload" type="text/css" as="style" href="style.css">
+      <link rel="preload" type="text/css" as="style"href="/css/style.css">
+      <link rel="preload" type="text/css" as="style" href="./css/et-line-min.css">
      
       <title>La Chouette agence | Agence de web design créative | Lyon </title>
       <!-- Analytics -->
@@ -47,12 +51,11 @@
                   <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
                      <ul class="site-navigation nav navbar-nav">
                         <li>
-                           <a href="index.html">Accueil</a>
+                           <a href="index.html" aria-label="Accueil">Accueil</a>
                         </li>
+                       
                         <li>
-                        </li>
-                        <li>
-                           <a href="Contact.html">Contact</a>
+                           <a href="Contact.html" aria-label="Contact">Contact</a>
                         </li>
                      </ul>
                   </div>
