@@ -1,0 +1,9 @@
+.buttons{
+    @include btn;
+}
+a,
+button {
+   transition: all .3s ease-in-out;
+   text-decoration: none;
+   outline: 0;
+}

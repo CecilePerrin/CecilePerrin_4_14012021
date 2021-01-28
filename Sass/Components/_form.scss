@@ -1,0 +1,42 @@
+.contactez-nous{
+    margin: 2em;
+    box-sizing: border-box; 
+}
+.formulaire{
+    max-width: 1000px;
+    margin:auto;
+    margin-top: 5em;
+    & label{
+        font-weight: bold;
+        font-size: 17px;
+    }
+    & input,textarea{
+        width: 100%;
+        font-size: 13px;
+    }
+    & button{
+    max-width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+    }
+}
+
+.form-input {
+	color: $color-input;
+	border: 1px solid $color-input;
+	border-radius: 5px;
+	box-shadow:  0 0.2em 0.2em rgba(50, 50, 50, 0.3);
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	min-height: 40px;
+	padding: 6px 12px;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	white-space: normal;
+}
+
+.form-input:focus {
+	border-color:$color-secondary;
+	outline: 0;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 131, 61, 0.6);
+}

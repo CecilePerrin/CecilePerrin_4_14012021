@@ -1,0 +1,9 @@
+.Bannière_contact{
+    background-color: $color-secondary;
+    background-image: url(/img/dots-bg.jpg);
+    padding: 5em 0 5em 0;
+    @include bannières;
+    & h2{
+        color:$color-primary;
+    }
+}
