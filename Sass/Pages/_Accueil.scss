@@ -1,5 +1,5 @@
 .Bannières {
-    background-image: url(/img/la-chouette-agence-banniere.jpg);
+    background-image: url(./img/la-chouette-agence-banniere.jpg);
     padding: 5em 0 5em 0;
     @include bannières;
     & h2 {
@@ -84,7 +84,7 @@
  }
  
  .Presentation {
-    background-image: url(/img/image-de-presentation.jpg);
+    background-image: url(./img/image-de-presentation.jpg);
     padding: 5em 0 5em 0;
     @include bannières;
     display: flex;
@@ -106,7 +106,7 @@
  }
  
  .portfolio {
-    background-image: url(/img/lines-h2-bg.jpg);
+    background-image: url(./img/lines-h2-bg.jpg);
     & h2 {
        margin-top: 0px!important;
        text-align: center;

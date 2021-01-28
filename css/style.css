@@ -368,7 +368,7 @@ p {
   }
 }
 .Bannières {
-  background-image: url(/img/la-chouette-agence-banniere.jpg);
+  background-image: url(./img/la-chouette-agence-banniere.jpg);
   padding: 5em 0 5em 0;
   color: #fff;
   clear: both;
@@ -460,7 +460,7 @@ p {
 }
 
 .Presentation {
-  background-image: url(/img/image-de-presentation.jpg);
+  background-image: url(./img/image-de-presentation.jpg);
   padding: 5em 0 5em 0;
   color: #fff;
   clear: both;
@@ -486,7 +486,7 @@ p {
 }
 
 .portfolio {
-  background-image: url(/img/lines-h2-bg.jpg);
+  background-image: url(./img/lines-h2-bg.jpg);
 }
 .portfolio h2 {
   margin-top: 0px !important;
