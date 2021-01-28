@@ -59,9 +59,9 @@ h2 {
 h3 {
   font-size: 15px;
   text-transform: uppercase;
-  color: #b9643d;
+  color: #c46133;
   font-weight: 600;
-  border-bottom: solid #b9643d 3.5px;
+  border-bottom: solid #c46133 3.5px;
   padding: 10px;
 }
 
@@ -78,7 +78,7 @@ a {
 }
 
 .buttons {
-  background-color: #b9643d;
+  background-color: #81361d;
   color: #fff !important;
   text-transform: uppercase;
   font-weight: 700;
@@ -128,8 +128,8 @@ button {
 }
 
 .form-input {
-  color: #8d8b8b;
-  border: 1px solid #8d8b8b;
+  color: #555;
+  border: 1px solid #555;
   border-radius: 5px;
   box-shadow: 0 0.2em 0.2em rgba(50, 50, 50, 0.3);
   box-sizing: border-box;
@@ -142,19 +142,19 @@ button {
 }
 
 .form-input:focus {
-  border-color: #b9643d;
+  border-color: #81361d;
   outline: 0;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 131, 61, 0.6);
 }
 
 footer {
-  background-color: #b9643d;
+  background-color: #81361d;
   color: white;
   padding: 5rem 0 5rem 0;
 }
 
 .social {
-  color: #313131;
+  color: black;
   margin: 2rem;
 }
 .social:hover {
@@ -437,7 +437,7 @@ p {
 .Services__citation {
   max-width: 800px;
   font-style: italic;
-  border-left: solid #b9643d 3.5px;
+  border-left: solid #81361d 3.5px;
   margin-bottom: 10rem;
 }
 
@@ -480,6 +480,12 @@ p {
   margin: auto;
   line-height: 3em;
   letter-spacing: 0.2px;
+  text-align: left;
+}
+@media (max-width: 950px) {
+  .Presentation__container {
+    padding: 1.5rem;
+  }
 }
 .Presentation h2 {
   color: #fff;
@@ -499,17 +505,23 @@ p {
 .portfolio__container {
   max-width: 1000px;
   padding: 5rem;
-  margin: 5rem 50rem 5rem 50rem;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
+}
+@media (max-width: 950px) {
+  .portfolio__container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
 }
 .portfolio__card {
   max-width: 300px;
   margin: 5rem;
 }
 .portfolio__hover {
-  max-width: 300px;
   background-color: rgba(226, 173, 153, 0.7);
   display: flex;
   font-size: 5em;
@@ -524,14 +536,17 @@ p {
   width: 300px;
   height: 500px;
 }
+@media (max-width: 950px) {
+  .portfolio__hover {
+    width: 275px;
+  }
+}
 .portfolio__hover:hover {
   opacity: 1;
 }
 
-/*   
-    background: rgba(233, 87, 29, 0.5);*/
 .Bannière_contact {
-  background-color: #b9643d;
+  background-color: #81361d;
   background-image: url(/img/dots-bg.jpg);
   padding: 5em 0 5em 0;
   color: #fff;
