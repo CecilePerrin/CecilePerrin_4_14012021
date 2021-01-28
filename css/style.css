@@ -59,9 +59,9 @@ h2 {
 h3 {
   font-size: 15px;
   text-transform: uppercase;
-  color: #f8844f;
+  color: #b9643d;
   font-weight: 600;
-  border-bottom: solid #f8844f 3.5px;
+  border-bottom: solid #b9643d 3.5px;
   padding: 10px;
 }
 
@@ -78,7 +78,7 @@ a {
 }
 
 .buttons {
-  background-color: #f8844f;
+  background-color: #b9643d;
   color: #fff !important;
   text-transform: uppercase;
   font-weight: 700;
@@ -142,13 +142,13 @@ button {
 }
 
 .form-input:focus {
-  border-color: #f8844f;
+  border-color: #b9643d;
   outline: 0;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(253, 131, 61, 0.6);
 }
 
 footer {
-  background-color: #f8844f;
+  background-color: #b9643d;
   color: white;
   padding: 5rem 0 5rem 0;
 }
@@ -368,7 +368,7 @@ p {
   }
 }
 .Bannières {
-  background-image: url(./img/la-chouette-agence-banniere.jpg);
+  background-image: url(../img/la-chouette-agence-banniere.jpg);
   padding: 5em 0 5em 0;
   color: #fff;
   clear: both;
@@ -437,7 +437,7 @@ p {
 .Services__citation {
   max-width: 800px;
   font-style: italic;
-  border-left: solid #f8844f 3.5px;
+  border-left: solid #b9643d 3.5px;
   margin-bottom: 10rem;
 }
 
@@ -460,7 +460,7 @@ p {
 }
 
 .Presentation {
-  background-image: url(./img/image-de-presentation.jpg);
+  background-image: url(../img/image-de-presentation.jpg);
   padding: 5em 0 5em 0;
   color: #fff;
   clear: both;
@@ -482,11 +482,11 @@ p {
   letter-spacing: 0.2px;
 }
 .Presentation h2 {
-  color: #f8844f;
+  color: #fff;
 }
 
 .portfolio {
-  background-image: url(./img/lines-h2-bg.jpg);
+  background-image: url(../img/lines-h2-bg.jpg);
 }
 .portfolio h2 {
   margin-top: 0px !important;
@@ -531,7 +531,7 @@ p {
 /*   
     background: rgba(233, 87, 29, 0.5);*/
 .Bannière_contact {
-  background-color: #f8844f;
+  background-color: #b9643d;
   background-image: url(/img/dots-bg.jpg);
   padding: 5em 0 5em 0;
   color: #fff;
