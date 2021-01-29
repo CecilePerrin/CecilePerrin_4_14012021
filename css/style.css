@@ -542,14 +542,15 @@ p {
   z-index: 4;
   width: 300px;
   height: 500px;
-}
-@media (max-width: 950px) {
-  .portfolio__hover {
-    width: 275px;
-  }
+  overflow: hidden;
 }
 .portfolio__hover:hover {
   opacity: 1;
+}
+@media (max-width: 900px) {
+  .portfolio__hover:hover {
+    opacity: 0;
+  }
 }
 
 .Bannière_contact {
