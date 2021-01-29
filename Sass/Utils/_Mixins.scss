@@ -22,7 +22,7 @@
 @mixin bannières {
     color:$color-primary;
     clear: both;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: auto;
     position: relative;
 }
