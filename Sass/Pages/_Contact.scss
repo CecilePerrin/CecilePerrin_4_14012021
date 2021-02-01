@@ -7,3 +7,11 @@
         color:$color-primary;
     }
 }
+
+.fa-chevron-up{
+    color:$color-secondary;
+    right:10px;
+    position: absolute;
+    background-color: rgb(226, 226, 226);
+    border-radius: 15px;
+}

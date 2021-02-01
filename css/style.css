@@ -567,4 +567,12 @@ p {
   color: #fff;
 }
 
+.fa-chevron-up {
+  color: #81361d;
+  right: 10px;
+  position: absolute;
+  background-color: #e2e2e2;
+  border-radius: 15px;
+}
+
 /*# sourceMappingURL=style.css.map */
